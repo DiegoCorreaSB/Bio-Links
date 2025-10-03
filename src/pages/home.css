@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+  font-size: 18px;
+  color: #eaeaea;
+  background-color: #121212;
+
+  --color: #646cff;
+  --color-dark: #535bf2;
+}
+
+a:hover {
+    opacity: 0.8;
+    transition: all 0.3s;
+}
