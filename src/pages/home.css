@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,15 +8,109 @@
 
 :root {
 
-  font-size: 18px;
-  color: #eaeaea;
-  background-color: #121212;
+  font-size: 20px;
+  color: #000000;
 
-  --color: #646cff;
+  --color-traparent: #fc74562c;
   --color-dark: #535bf2;
+
+  font-family: Google Sans Code, Rubik, sans-serif;
 }
 
-a:hover {
-    opacity: 0.8;
-    transition: all 0.3s;
+.main {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-image: url('../assets/japao.jpg');
+  background-size: cover;      /* cobre toda a tela */
+  background-position: center; /* centraliza a imagem */
+  background-repeat: no-repeat;/* não repete */
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#img-profile {
+  width: 120px;
+  height:120px;
+  border-radius: 50%;
+}
+
+ol {
+  gap: 20px;
+  
+}
+
+li {
+  list-style: none;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+
+  border: #121212 2px solid;
+  border-radius: 7px;
+  text-align: center;
+  margin: 30px;
+
+  background-color: var(--color-traparent); /* roxo transparente */
+  backdrop-filter: blur(3px); /* efeito de blur */
+  -webkit-backdrop-filter: blur(8px); /* suporte Safari */
+}
+
+li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: .3s;
+  color: #121212;
+}
+
+li:hover {
+  border: #FCF2BD 2px solid;
+  transition-duration: 0.8s;
+}
+
+li a:hover, .icon:hover {
+  cursor: pointer;
+  transition-duration: 0.8s;
+  color: #FCF2BD;
+}
+
+#social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.icon{
+  height: 40px;
+  width: 40px;
+  color: #000000;
+}
+
+#footer {
+  font-size: 10px;
+}
+
+
