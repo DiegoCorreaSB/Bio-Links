@@ -68,11 +68,8 @@ li {
   list-style: none;
   width: 300px;
   height: 50px;
-  padding: 5px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 0; 
+  display: block;
   
   border: #121212 2px solid;
   border-radius: 7px;
@@ -87,6 +84,13 @@ li {
 }
 
 li a {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 5px 0;
+  box-sizing: border-box;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
@@ -97,6 +101,7 @@ li a {
 li:hover {
   border: #FCF2BD 2px solid;
   transition-duration: 0.8s;
+  cursor: pointer;
 }
 
 li a:hover,
