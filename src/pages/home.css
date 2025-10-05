@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -27,9 +27,12 @@
   flex-direction: column;
 
   background-image: url('../assets/japao.jpg');
-  background-size: cover;      /* cobre toda a tela */
-  background-position: center; /* centraliza a imagem */
-  background-repeat: no-repeat;/* não repete */
+  background-size: cover;
+  /* cobre toda a tela */
+  background-position: center;
+  /* centraliza a imagem */
+  background-repeat: no-repeat;
+  /* não repete */
 }
 
 .container {
@@ -50,35 +53,43 @@
 
 #img-profile {
   width: 120px;
-  height:120px;
+  height: 120px;
   border-radius: 50%;
 }
 
 ol {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
-  
+
 }
 
 li {
   list-style: none;
   width: 300px;
   height: 50px;
-  padding: 10px;
+  padding: 5px;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
   border: #121212 2px solid;
   border-radius: 7px;
   text-align: center;
-  margin: 30px;
 
-  background-color: var(--color-traparent); /* roxo transparente */
-  backdrop-filter: blur(3px); /* efeito de blur */
-  -webkit-backdrop-filter: blur(8px); /* suporte Safari */
+  background-color: var(--color-traparent);
+  /* roxo transparente */
+  backdrop-filter: blur(3px);
+  /* efeito de blur */
+  -webkit-backdrop-filter: blur(8px);
+  /* suporte Safari */
 }
 
 li a {
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   transition: .3s;
   color: #121212;
 }
@@ -88,7 +99,8 @@ li:hover {
   transition-duration: 0.8s;
 }
 
-li a:hover, .icon:hover {
+li a:hover,
+.icon:hover {
   cursor: pointer;
   transition-duration: 0.8s;
   color: #FCF2BD;
@@ -103,7 +115,7 @@ li a:hover, .icon:hover {
   gap: 30px;
 }
 
-.icon{
+.icon {
   height: 40px;
   width: 40px;
   color: #000000;
@@ -112,5 +124,3 @@ li a:hover, .icon:hover {
 #footer {
   font-size: 10px;
 }
-
-
