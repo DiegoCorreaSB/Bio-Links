@@ -13,13 +13,13 @@ export const HomePage = () => {
          <div className="container">
             <div id="profile">
                <img id="img-profile" src={profileDiego} alt="Diego Corrêa" />
-               <p>Diego Corrêa, 21 Anos</p>
+               <p>Diego Corrêa, estudando em Banco de Dados</p>
             </div>
 
             <div id="links">
                <ol>
                   <li>
-                     <a href= "https://banlek.com/jottapefotografiasvr">Portfólio</a>
+                     <a href= "#">Portfólio</a>
                   </li>
                   <li>
                      <a href="https://diegocorreasb.github.io/Calculator/" target="_blank">Calculator Project</a>
@@ -37,10 +37,10 @@ export const HomePage = () => {
             </div>
 
             <div id="social-links">
-               <a href="" className="iconsSocialLinks"> <FontAwesomeIcon className="icon" icon={faLinkedin} /> </a>
+               <a href="https://www.linkedin.com/in/diego-berto-7622902b2/" className="iconsSocialLinks" target="_blank"> <FontAwesomeIcon className="icon" icon={faLinkedin} /> </a>
                <a href="https://github.com/DiegoCorreaSB" className="iconsSocialLinks" target="_blank"> <FontAwesomeIcon className="icon" icon={faGithub} /> </a>
 
-               <a href="" className="iconsSocialLinks"> <FontAwesomeIcon className="icon" icon={faTiktok} /> </a>
+               <a href="https://www.tiktok.com/@correa.dev" className="iconsSocialLinks" target="_blank"> <FontAwesomeIcon className="icon" icon={faTiktok} /> </a>
 
                <a href="https://www.instagram.com/dgcorrea__/" className="iconsSocialLinks" target="_blank"> <FontAwesomeIcon className="icon" icon={faInstagram} /> </a>
             </div>
