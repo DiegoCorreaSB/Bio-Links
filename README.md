@@ -1,73 +1,94 @@
-# React + TypeScript + Vite
+# Bio-Links ![React](https://img.shields.io/badge/React-17.0.2-blue) ![Vite](https://img.shields.io/badge/Vite-4.5.0-brightgreen) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma página pessoal minimalista para centralizar todos os seus links importantes, construída em **React**. Ideal para usar como **bio-link** em redes sociais.  
 
-Currently, two official plugins are available:
+![Screenshot do Bio-Links](https://diegocorreasb.github.io/Bio-Links/screenshot-page.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌐 Demo Online
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Acesse a versão online do projeto: [Bio-Links](https://diegocorreasb.github.io/Bio-Links/)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Tecnologias
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React** – Biblioteca principal para construção da interface.  
+- **Vite** – Ferramenta de build e desenvolvimento rápido.  
+- **CSS3** – Estilização personalizada (ou Tailwind, se preferir).  
+- **JavaScript/TypeScript** – Funcionalidades e interatividade.  
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ✨ Features
+
+- Página única centralizando links pessoais.  
+- Layout **responsivo** para celular, tablet e desktop.  
+- Personalização fácil de links, cores e textos.  
+- Design **minimalista e moderno**.  
+- Deploy automático no **GitHub Pages**.  
+
+---
+
+## 💻 Instalação e Uso
+
+1. Clone o repositório:  
+```bash
+git clone https://github.com/DiegoCorreaSB/Bio-Links.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. Entre na pasta do projeto:
+```bash
+cd Bio-Links
 ```
+
+3. Instale as dependências:  
+```bash
+npm install
+```
+
+4. Rode o projeto em modo de desenvolvimento:
+```bash
+npm run dev
+```
+
+5. Para gerar a versão de produção:
+```bash
+npm run build
+```
+
+6. Para pré-visualizar a build:
+```bash
+npm run preview
+```
+
+7. Deploy para GitHub Pages:
+```bash
+npm run deploy
+```
+
+---
+
+🛠 Personalização
+
+Edite src/App.jsx (ou App.tsx) para alterar links e textos.
+Customize cores e fontes em src/App.css ou usando sua biblioteca de estilo favorita.
+
+---
+
+📄 Licença
+
+Este projeto está licenciado sob a Licença MIT.
+
+---
+
+🔗 Redes Sociais (Exemplo)
+
+LinkedIn
+GitHub
+Instagram
+
+---
+
+
