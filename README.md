@@ -68,15 +68,20 @@ npm run preview
 npm run deploy
 ```
 
+---
+
 🛠 Personalização
 
 Edite src/App.jsx (ou App.tsx) para alterar links e textos.
-
 Customize cores e fontes em src/App.css ou usando sua biblioteca de estilo favorita.
+
+---
 
 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT.
+
+---
 
 🔗 Redes Sociais (Exemplo)
 
@@ -84,6 +89,6 @@ LinkedIn
 GitHub
 Instagram
 
-
+---
 
 
