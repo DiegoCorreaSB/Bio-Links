@@ -22,7 +22,7 @@ export const HomePage = () => {
                      <a href= "https://banlek.com/jottapefotografiasvr">Portfólio</a>
                   </li>
                   <li>
-                     <a href="#">Calculator Project</a>
+                     <a href="https://diegocorreasb.github.io/Calculator/" target="_blank">Calculator Project</a>
                   </li>
                   <li>
                      <a href="#">Login Screen</a>
