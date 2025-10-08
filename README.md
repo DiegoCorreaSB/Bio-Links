@@ -1,62 +1,38 @@
-Bio-Links
+# Bio-Links ![React](https://img.shields.io/badge/React-17.0.2-blue) ![Vite](https://img.shields.io/badge/Vite-4.5.0-brightgreen) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Uma página pessoal minimalista para centralizar todos os seus links importantes, construída em React com design moderno e responsivo. Ideal para usar como bio-link em redes sociais.
+Uma página pessoal minimalista para centralizar todos os seus links importantes, construída em **React**. Ideal para usar como **bio-link** em redes sociais.  
 
-🚀 Tecnologias
+![Screenshot do Bio-Links](https://diegocorreasb.github.io/Bio-Links/screenshot.png)
 
-React – Biblioteca principal para construção da interface.
+---
 
-Vite – Ferramenta de build e desenvolvimento rápido.
+## 🌐 Demo Online
 
-CSS3 – Estilização personalizada (ou Tailwind, caso utilize).
+Acesse a versão online do projeto: [Bio-Links](https://diegocorreasb.github.io/Bio-Links/)  
 
-JavaScript/TypeScript – Funcionalidades e interatividade.
+---
 
-✨ Features
+## 🚀 Tecnologias
 
-Página única centralizando links pessoais.
+- **React** – Biblioteca principal para construção da interface.  
+- **Vite** – Ferramenta de build e desenvolvimento rápido.  
+- **CSS3** – Estilização personalizada (ou Tailwind, se preferir).  
+- **JavaScript/TypeScript** – Funcionalidades e interatividade.  
 
-Layout responsivo para celular, tablet e desktop.
+---
 
-Personalização fácil dos links, cores e textos.
+## ✨ Features
 
-Design minimalista e moderno.
+- Página única centralizando links pessoais.  
+- Layout **responsivo** para celular, tablet e desktop.  
+- Personalização fácil de links, cores e textos.  
+- Design **minimalista e moderno**.  
+- Deploy automático no **GitHub Pages**.  
 
-💻 Instalação e uso
+---
 
-Clone o repositório:
+## 💻 Instalação e Uso
 
+1. Clone o repositório:  
+```bash
 git clone https://github.com/DiegoCorreaSB/Bio-Links.git
-
-
-Entre na pasta do projeto:
-
-cd Bio-Links
-
-
-Instale as dependências:
-
-npm install
-
-
-Rode o projeto em modo de desenvolvimento:
-
-npm run dev
-
-
-O projeto estará disponível em http://localhost:5173 (ou outra porta informada pelo Vite).
-
-Para gerar a versão de produção:
-
-npm run build
-
-
-Para pré-visualizar a build:
-
-npm run preview
-
-🛠 Personalização
-
-Abra o arquivo src/App.jsx (ou App.tsx) para alterar os links e textos.
-
-Edite o CSS em src/App.css ou use sua biblioteca de estilo para customizar cores e fontes.
