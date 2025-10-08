@@ -2,7 +2,9 @@
 
 Uma página pessoal minimalista para centralizar todos os seus links importantes, construída em **React**. Ideal para usar como **bio-link** em redes sociais.  
 
-![Screenshot do Bio-Links](https://diegocorreasb.github.io/Bio-Links/screenshot-page.png)
+![Screenshot do Bio-Links](public/screenshot-page.png)
+
+
 
 ---
 
@@ -16,7 +18,7 @@ Acesse a versão online do projeto: [Bio-Links](https://diegocorreasb.github.io/
 
 - **React** – Biblioteca principal para construção da interface.  
 - **Vite** – Ferramenta de build e desenvolvimento rápido.  
-- **CSS3** – Estilização personalizada (ou Tailwind, se preferir).  
+- **CSS** – Estilização personalizada.
 - **JavaScript/TypeScript** – Funcionalidades e interatividade.  
 
 ---
