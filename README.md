@@ -2,7 +2,7 @@
 
 Uma página pessoal minimalista para centralizar todos os seus links importantes, construída em **React**. Ideal para usar como **bio-link** em redes sociais.  
 
-![Screenshot do Bio-Links](https://diegocorreasb.github.io/Bio-Links/screenshot-page.png)
+![Screenshot do Bio-Links](https://diegocorreasb.github.io/Bio-Links/public/screenshot-page.png)
 
 ---
 
