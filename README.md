@@ -1,73 +1,62 @@
-# React + TypeScript + Vite
+Bio-Links
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma página pessoal minimalista para centralizar todos os seus links importantes, construída em React com design moderno e responsivo. Ideal para usar como bio-link em redes sociais.
 
-Currently, two official plugins are available:
+🚀 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React – Biblioteca principal para construção da interface.
 
-## React Compiler
+Vite – Ferramenta de build e desenvolvimento rápido.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+CSS3 – Estilização personalizada (ou Tailwind, caso utilize).
 
-## Expanding the ESLint configuration
+JavaScript/TypeScript – Funcionalidades e interatividade.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Página única centralizando links pessoais.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Layout responsivo para celular, tablet e desktop.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Personalização fácil dos links, cores e textos.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Design minimalista e moderno.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+💻 Instalação e uso
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Clone o repositório:
+
+git clone https://github.com/DiegoCorreaSB/Bio-Links.git
+
+
+Entre na pasta do projeto:
+
+cd Bio-Links
+
+
+Instale as dependências:
+
+npm install
+
+
+Rode o projeto em modo de desenvolvimento:
+
+npm run dev
+
+
+O projeto estará disponível em http://localhost:5173 (ou outra porta informada pelo Vite).
+
+Para gerar a versão de produção:
+
+npm run build
+
+
+Para pré-visualizar a build:
+
+npm run preview
+
+🛠 Personalização
+
+Abra o arquivo src/App.jsx (ou App.tsx) para alterar os links e textos.
+
+Edite o CSS em src/App.css ou use sua biblioteca de estilo para customizar cores e fontes.
