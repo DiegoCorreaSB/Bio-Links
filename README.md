@@ -36,3 +36,54 @@ Acesse a versão online do projeto: [Bio-Links](https://diegocorreasb.github.io/
 1. Clone o repositório:  
 ```bash
 git clone https://github.com/DiegoCorreaSB/Bio-Links.git
+```
+
+2. Entre na pasta do projeto:
+```bash
+cd Bio-Links
+```
+
+3. Instale as dependências:  
+```bash
+npm install
+```
+
+4. Rode o projeto em modo de desenvolvimento:
+```bash
+npm run dev
+```
+
+5. Para gerar a versão de produção:
+```bash
+npm run build
+```
+
+6. Para pré-visualizar a build:
+```bash
+npm run preview
+```
+
+7. Deploy para GitHub Pages:
+```bash
+npm run deploy
+```
+
+🛠 Personalização
+
+Edite src/App.jsx (ou App.tsx) para alterar links e textos.
+
+Customize cores e fontes em src/App.css ou usando sua biblioteca de estilo favorita.
+
+📄 Licença
+
+Este projeto está licenciado sob a Licença MIT.
+
+🔗 Redes Sociais (Exemplo)
+
+LinkedIn
+GitHub
+Instagram
+
+
+
+
