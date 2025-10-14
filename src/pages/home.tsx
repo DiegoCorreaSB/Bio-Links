@@ -46,7 +46,7 @@ export const HomePage = () => {
             </div>
 
             <div id="footer">
-               <p>Feito por Diego Corrêa</p>
+               <p>Feito por Diego Corrêa </p>
             </div>
          </div>
       </div>
