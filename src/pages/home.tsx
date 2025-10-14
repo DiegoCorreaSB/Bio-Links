@@ -25,9 +25,6 @@ export const HomePage = () => {
                      <a href="https://diegocorreasb.github.io/Calculator/" target="_blank">Calculadora</a>
                   </li>
                   <li>
-                     <a href="#">Tela de Login</a>
-                  </li>
-                  <li>
                      <a href="https://diegocorreasb.github.io/orderTableJS/" target="_blank">Tabela Ordenada</a>
                   </li>
                   <li>
