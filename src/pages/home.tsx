@@ -13,7 +13,7 @@ export const HomePage = () => {
          <div className="container">
             <div id="profile">
                <img id="img-profile" src={profileDiego} alt="Diego Corrêa" />
-               <p>Diego Corrêa, estudando em Banco de Dados</p>
+               <p>Diego Corrêa, estudante em Banco de Dados</p>
             </div>
 
             <div id="links">
@@ -22,13 +22,13 @@ export const HomePage = () => {
                      <a href= "#">Portfólio</a>
                   </li>
                   <li>
-                     <a href="https://diegocorreasb.github.io/Calculator/" target="_blank">Calculator Project</a>
+                     <a href="https://diegocorreasb.github.io/Calculator/" target="_blank">Calculadora</a>
                   </li>
                   <li>
-                     <a href="#">Login Screen</a>
+                     <a href="#">Tela de Login</a>
                   </li>
                   <li>
-                     <a href="https://diegocorreasb.github.io/orderTableJS/" target="_blank">Ordered Table</a>
+                     <a href="https://diegocorreasb.github.io/orderTableJS/" target="_blank">Tabela Ordenada</a>
                   </li>
                   <li>
                      <a href="#">Sobre mim</a>
